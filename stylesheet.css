@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #33ccff 0%, #66ffff 50%, #99ff99 100%);
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+img {
+    width: 100px;
+}
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    /* border: 2px solid black; */
+}
+.button {
+    padding: 25px 50px;
+    border-radius: 10px;
+    font-size: larger;
+    background-image: linear-gradient(yellow, orange);
+    border: 2px solid yellow;
+}
+.button:hover {
+    background-image: linear-gradient(to top, yellow, orange);
+}
+input {
+    /* border-radius: 5px solid blue; */
+    border: 1px solid #ccc;
+    padding: 10px 75px;
+    border-radius: 3px;
+    font-size: 32px;
+}
+.container  h1 {
+    font-size: 50px;
+}
+.container p {
+    font-size: 28px;
+}
+
+/* List item */
+
+.listitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 450px;
+    gap: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff9933 0%, #ff5e33 50%, #b33771 100%);
+    padding: 50px;
+
+    p {
+        flex-wrap: wrap;
+        font-size: 56px;
+        margin: 0;
+    }
+    div > button {
+        font-size: 42px;
+    }
+    div button:first-child {
+        color: green;
+        background-color: white;
+    }
+    div button:first-child:hover {
+        background-color: green;
+        color: white;
+    }
+    div button:last-child {
+        color: red;
+        background-color: white;
+    }
+    div button:last-child:hover {
+        color: white;
+        background-color: red;
+    }
+}
+.listitem:hover {
+    background-image: linear-gradient(yellow, orange);
+}
+
+
+
